@@ -1,0 +1,21 @@
+'use strict';
+
+var GetIntrinsic = require('get-intrinsic');
+
+var $TypeError = GetIntrinsic('%TypeError%');
+
+var callBound = require('call-bind/callBound');
+
+var $dataViewBuffer = callBound('DataView.prototype.buffer', true);
+
+var isDataView = require('is-data-view');
+
+// node <= 0.10, < 0.11.4 has a nonconfigurable own property instead of a prototype getter
+/** @type {import('.')} */
+module.exports = $dataViewBuffer || function dataViewBuffer(x) {
+	if (!isDataView(x)) {
+		throw new $TypeError('not a DataView');
+	}
+
+	return x.buffer;
+};
