@@ -44,8 +44,8 @@
 	},
 	"homepage": "https://github.com/ljharb/data-view-buffer#readme",
 	"dependencies": {
-		"call-bind": "^1.0.5",
-		"get-intrinsic": "^1.2.2",
+		"call-bind": "^1.0.6",
+		"get-intrinsic": "^1.2.3",
 		"is-data-view": "^1.0.1"
 	},
 	"devDependencies": {
