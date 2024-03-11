@@ -28,7 +28,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ljharb/data-view-buffer.git"
+		"url": "git+https://github.com/inspect-js/data-view-buffer.git"
 	},
 	"keywords": [
 		"javascript",
@@ -40,9 +40,9 @@
 	"author": "Jordan Harband <ljharb@gmail.com>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/ljharb/data-view-buffer/issues"
+		"url": "https://github.com/inspect-js/data-view-buffer/issues"
 	},
-	"homepage": "https://github.com/ljharb/data-view-buffer#readme",
+	"homepage": "https://github.com/inspect-js/data-view-buffer#readme",
 	"dependencies": {
 		"call-bind": "^1.0.7",
 		"es-errors": "^1.3.0",
